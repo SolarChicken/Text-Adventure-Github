@@ -4,6 +4,8 @@ In this game, one person is randomly spawned into a 5x5 grid and moves from room
 
 Serialization: scores by players are stored into a leaderboard hashmap which is saved across multiple playthroughs using serialization in "ScoreState.ser" and even after the user types 'q' to quit the program.
 
+To check serialization, you can quickly win the game with the command 'win' during the "Do you want to play" dialogue. You can then input as many initials as needed with each win, and quit the program with 'q'. When starting the game again and typing 'l', the leaderboard will be saved after quitting.
+
 Author - Isaac Zhang
 
 State Info:
