@@ -1,6 +1,6 @@
 Game class - Text Adventure
 
-In this game, one person is randomly spawned into a 5x5 grid and moves from room to room in a dungeon using commands until arriving upon the winning room or dying in a death room. There are warnings when a trap is one square away in the four cardinal directions, and a message when the user tries to move beyond the borders of the grid.
+In this game, one person is randomly spawned into a 5x5 grid and moves from room to room in a dungeon using commands until arriving upon the winning room or dying in a death room. There are warnings when the death room is one square away in the four cardinal directions, and a message when the user tries to move beyond the borders of the grid.
 
 Serialization: scores by players are stored into a leaderboard hashmap which is saved across multiple playthroughs using serialization in "ScoreState.ser" and even after the user types 'q' to quit the program.
 
@@ -38,3 +38,4 @@ Change history:
 5/18: implemented highscore checker, switch for play, leaderboard, or quit
 5/19: implemented try/catch for player name on leaderboard
 5/23: fixed respawn location on new game
+6/9: added serialization for leaderboard
